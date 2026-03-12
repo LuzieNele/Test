@@ -1,0 +1,1 @@
+function scrollToSection(id) { /* ... */ } /* Navigation */
