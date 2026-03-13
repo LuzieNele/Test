@@ -1,16 +1,223 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPZ Nippes - Diakonie Köln & Region</title>
-    <link rel="stylesheet" href="_styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPZ Nippes – Sozialpsychiatrisches Zentrum Köln | Diakonie Köln &amp; Region</title>
+  <link rel="stylesheet" href="_styles.css">
 </head>
 <body>
-    <!-- Home/Onepager-Inhalt wie zuvor, mit Links zu Unterseiten -->
-    <header><!-- ... --></header>
-    <nav><!-- Links: index.html, angebote.html etc. --></nav>
-    <!-- Hero, Sections -->
-    <script src="_script.js"></script>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">SPZ</div>
+      <div class="logo-text">
+        <strong>SPZ Nippes</strong>
+        <span>Diakonie Köln &amp; Region</span>
+      </div>
+    </a>
+    <nav>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-list">
+        <li><a href="index.html" class="aktiv">Startseite</a></li>
+        <li><a href="angebote.html">Angebote</a></li>
+        <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Unterstützung für Menschen mit psychischer Erkrankung</h1>
+  <p>Das Sozialpsychiatrische Zentrum Nippes der Diakonie Köln &amp; Region begleitet Menschen im Stadtbezirk Nippes auf dem Weg zu mehr Selbstständigkeit und Lebensqualität.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="angebote.html" class="btn btn-weiss">Unsere Angebote</a>
+    <a href="kontakt.html" class="btn btn-outline">Kontakt aufnehmen</a>
+  </div>
+</section>
+
+<!-- ANGEBOTE ÜBERBLICK -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Unsere Angebote</h2>
+    <p class="section-sub">Wir unterstützen Menschen mit psychischen Erkrankungen und ihre Angehörigen – vertraulich und kostenlos.</p>
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-icon"></div>
+        <div class="card-body">
+          <h3>Kontakt- &amp; Beratungsstelle</h3>
+          <p>Treffpunkt und offenes Café für Menschen mit psychischen Problemen – zum Austauschen, Kennenlernen und Beraten. Mit Gruppen­angeboten, Ausflügen und gemeinsamen Mahlzeiten.</p>
+        </div>
+        <div class="card-footer"><a href="angebote.html#kob">Mehr erfahren →</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"></div>
+        <div class="card-body">
+          <h3>Tagesstätte</h3>
+          <p>Tagesstrukturierendes Angebot an 5 Tagen pro Woche mit Kreativem, Bewegung und Kognitivtraining – in einer festen Gruppe von rund 25 Personen.</p>
+        </div>
+        <div class="card-footer"><a href="angebote.html#tagesstaette">Mehr erfahren →</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"></div>
+        <div class="card-body">
+          <h3>Betreutes Wohnen</h3>
+          <p>Individuelle Unterstützung für Menschen mit einer schwerwiegenden psychischen Erkrankung, die selbstständig in einer eigenen Wohnung oder Wohngemeinschaft leben.</p>
+        </div>
+        <div class="card-footer"><a href="angebote.html#betreutes-wohnen">Mehr erfahren →</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"></div>
+        <div class="card-body">
+          <h3>Ambulante Psychiatrische Pflege</h3>
+          <p>Die APP hilft nach einer Krise dabei, den Alltag wieder selbstständig zu meistern – durch professionelle Begleitung direkt vor Ort.</p>
+        </div>
+        <div class="card-footer"><a href="angebote.html#app">Mehr erfahren →</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"></div>
+        <div class="card-body">
+          <h3>Sozialpsychiatrischer Dienst</h3>
+          <p>Kostenlose Beratung bei psychischen Krisen, Suchterkrankungen und für Angehörige. Der Dienst berät, begleitet und hilft, passende Wege zu finden.</p>
+        </div>
+        <div class="card-footer"><a href="angebote.html#spd">Mehr erfahren →</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"></div>
+        <div class="card-body">
+          <h3>Freizeitgeld</h3>
+          <p>Finanzielle Unterstützung des LVR für Freizeit­aktivitäten: Kino, Museen, Konzerte, Sportkurse oder Vereins­mitgliedschaften – bis zu 30 € jährlich.</p>
+        </div>
+        <div class="card-footer"><a href="angebote.html#freizeitgeld">Mehr erfahren →</a></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INFO STRIP -->
+<div class="info-strip">
+  <div class="container">
+    <div style="flex:1">
+      <h2>Jetzt Beratung anfragen</h2>
+      <p>Wir sind für Sie da – ob Sie selbst betroffen sind oder sich Sorgen um einen Angehörigen machen. Sprechen Sie uns an.</p>
+    </div>
+    <a href="kontakt.html" class="btn btn-weiss">Kontakt aufnehmen</a>
+  </div>
+</div>
+
+<!-- ÜBER UNS -->
+<section class="section section-grau">
+  <div class="container two-col">
+    <div>
+      <h2 class="section-title">Über das SPZ Nippes</h2>
+      <p class="section-sub">Seit 1992 im Einsatz für psychische Gesundheit in Köln</p>
+      <p style="font-size:0.9rem;color:#555;margin-bottom:14px;">
+        Das Sozialpsychiatrische Zentrum (SPZ) Nippes wurde 1992 vom damaligen Amt für Diakonie in Köln (heute Diakonie Köln und Region) und der Karl-Emmanuel-Küpper-Stiftung gegründet.
+      </p>
+      <p style="font-size:0.9rem;color:#555;margin-bottom:14px;">
+        Wir unterstützen Menschen im Stadtbezirk Nippes, die von psychischen Erkrankungen, seelischen Krisen oder Behinderungen betroffen sind – sowie deren Angehörige. Unsere Beratung ist vertraulich und kostenlos.
+      </p>
+      <p style="font-size:0.9rem;color:#555;margin-bottom:20px;">
+        Zum Stadtbezirk Nippes gehören die Stadtteile Nippes, Niehl, Riehl, Mauenheim, Weidenpesch, Bilderstöckchen und Longerich.
+      </p>
+      <p style="font-size:0.85rem;color:#777;">
+        Mitglied im Diakonischen Werk Rheinland-Westfalen-Lippe, der Arbeitsgemeinschaft Gemeindepsychiatrie (AGPR) und der Psychosozialen Arbeitsgemeinschaft Köln (PSAG).
+      </p>
+    </div>
+    <div>
+      <div class="kontakt-box">
+        <h3>Schnell-Kontakt</h3>
+        <div class="kontakt-zeile">
+          <svg class="kontakt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <strong>Hauptadresse &amp; Betreutes Wohnen</strong><br>
+            Niehler Straße 83, 50733 Köln
+          </div>
+        </div>
+        <div class="kontakt-zeile">
+          <svg class="kontakt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <strong>Tagesstätte</strong><br>
+            Neusser Straße 354, 50733 Köln
+          </div>
+        </div>
+        <div class="kontakt-zeile">
+          <svg class="kontakt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.59 3.41 2 2 0 0 1 3.57 1.25h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 15.92z"/></svg>
+          <div>0221 / 888 213-0</div>
+        </div>
+        <div class="kontakt-zeile">
+          <svg class="kontakt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <div>linda.fastenrath@spz-nippes.de</div>
+        </div>
+        <div style="margin-top:16px;">
+          <a href="kontakt.html" class="btn btn-blau" style="width:100%;text-align:center;">Zur Kontaktseite</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h4>SPZ Nippes</h4>
+      <p style="font-size:0.82rem;line-height:1.6;">Sozialpsychiatrisches Zentrum Köln-Nippes<br>
+      Diakonie Köln &amp; Region<br>
+      Niehler Straße 83<br>
+      50733 Köln</p>
+    </div>
+    <div>
+      <h4>Angebote</h4>
+      <ul>
+        <li><a href="angebote.html#kob">Kontakt- &amp; Beratungsstelle</a></li>
+        <li><a href="angebote.html#tagesstaette">Tagesstätte</a></li>
+        <li><a href="angebote.html#betreutes-wohnen">Betreutes Wohnen</a></li>
+        <li><a href="angebote.html#app">Ambulante Psychiatrische Pflege</a></li>
+        <li><a href="angebote.html#freizeitgeld">Freizeitgeld</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <ul>
+        <li><a href="kontakt.html">Kontaktformular</a></li>
+        <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+      </ul>
+      <p style="font-size:0.82rem;margin-top:10px;">Tel: 0221 / 888 213-0</p>
+    </div>
+    <div>
+      <h4>Träger</h4>
+      <p style="font-size:0.82rem;line-height:1.6;">
+        <a href="https://www.diakonie-koeln.de" target="_blank" rel="noopener">Diakonie Köln &amp; Region</a>
+      </p>
+      <p style="font-size:0.82rem;margin-top:8px;line-height:1.6;">
+        Mitglied im Diakonischen Werk Rheinland-Westfalen-Lippe
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024 SPZ Nippes – Diakonie Köln &amp; Region</span>
+    <div style="display:flex;gap:16px;">
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+      <a href="#">Barrierefreiheit</a>
+    </div>
+  </div>
+</footer>
+
+<script src="_script.js"></script>
 </body>
 </html>
